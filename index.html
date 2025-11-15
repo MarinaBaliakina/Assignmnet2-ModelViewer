@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Humber Cakes - Delicious Treats</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Humber Cakes</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Welcome to Humber Cakes</h1>
+                <p class="subtitle">Sweet Dreams Made Real</p>
+                <p class="description">Indulge in our delightful collection of handcrafted cakes, made with love and the finest ingredients.</p>
+                <button class="cta-button">Order Now</button>
+            </div>
+            <div class="hero-decoration">
+                <div class="cake-icon">🎂</div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>At Humber Cakes, we believe every celebration deserves something special. Our talented bakers create beautiful, delicious cakes that are perfect for any occasion.</p>
+                    <p>From birthdays to weddings, anniversaries to just because - we've got the perfect sweet treat for you!</p>
+                </div>
+                <div class="about-features">
+                    <div class="feature">
+                        <span class="feature-icon">✨</span>
+                        <h3>Fresh Daily</h3>
+                        <p>Baked fresh every morning</p>
+                    </div>
+                    <div class="feature">
+                        <span class="feature-icon">❤️</span>
+                        <h3>Made with Love</h3>
+                        <p>Every cake is crafted with care</p>
+                    </div>
+                    <div class="feature">
+                        <span class="feature-icon">🎨</span>
+                        <h3>Custom Designs</h3>
+                        <p>Personalized just for you</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="products" class="menu" aria-labelledby="products-title">
+            <h2 id="products-title">Featured Products</h2>
+            <div class="product-grid">
+                <article class="product" aria-labelledby="product-1-title">
+                    <h3 id="product-1-title">Flower</h3>
+                    <model-viewer src="assets/flower-25.glb" alt="Flower model" ar camera-controls min-camera-orbit="auto 0deg auto" max-camera-orbit="auto 90deg auto"></model-viewer>
+                </article>
+                <article class="product" aria-labelledby="product-2-title">
+                    <h3 id="product-2-title">blackforest</h3>
+                    <model-viewer src="assets/blackforest.glb" alt="blackforest model" ar camera-controls min-camera-orbit="auto 0deg auto" max-camera-orbit="auto 90deg auto"></model-viewer>
+                </article>
+                <article class="product" aria-labelledby="product-3-title">
+                    <h3 id="product-3-title">wedding-cake</h3>
+                    <model-viewer src="assets/wedding-cake.glb" alt="wedding-cake model" ar camera-controls min-camera-orbit="auto 0deg auto" max-camera-orbit="auto 90deg auto"></model-viewer>
+                </article>
+                <article class="product" aria-labelledby="product-4-title">
+                    <h3 id="product-4-title">carousel</h3>
+                    <model-viewer src="assets/carousel.glb" alt="carousel model" ar camera-controls min-camera-orbit="auto 0deg auto" max-camera-orbit="auto 90deg auto"></model-viewer>
+                </article>
+                <article class="product" aria-labelledby="product-5-title">
+                    <h3 id="product-5-title">chocolate</h3>
+                    <model-viewer src="assets/chocolate.glb" alt="chocolate model" ar camera-controls min-camera-orbit="auto 0deg auto" max-camera-orbit="auto 90deg auto"></model-viewer>
+                </article>
+                <article class="product" aria-labelledby="product-6-title">
+                    <h3 id="product-6-title">circus</h3>
+                    <model-viewer src="assets/circus.glb" alt="circus model" ar camera-controls min-camera-orbit="auto 0deg auto" max-camera-orbit="auto 90deg auto"></model-viewer>
+                </article>
+                <article class="product" aria-labelledby="product-7-title">
+                    <h3 id="product-7-title">flower-flat</h3>
+                    <model-viewer src="assets/flower-flat-25.glb" alt="flower-flat model" ar camera-controls min-camera-orbit="auto 0deg auto" max-camera-orbit="auto 90deg auto"></model-viewer>
+                </article>
+                <article class="product" aria-labelledby="product-8-title">
+                    <h3 id="product-8-title">lantern</h3>
+                    <model-viewer src="assets/lanterm.glb" alt="lantern model" ar camera-controls min-camera-orbit="auto 0deg auto" max-camera-orbit="auto 90deg auto"></model-viewer>
+                </article>
+                <article class="product" aria-labelledby="product-9-title">
+                    <h3 id="product-9-title">strawberry</h3>
+                    <model-viewer src="assets/strawberry.glb" alt="strawberry model" ar camera-controls min-camera-orbit="auto 0deg auto" max-camera-orbit="auto 90deg auto"></model-viewer>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Get in Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <span class="contact-icon">📍</span>
+                        <div>
+                            <h3>Visit Us</h3>
+                            <p>123 Sweet Street, Humber City</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">📞</span>
+                        <div>
+                            <h3>Call Us</h3>
+                            <p>(555) 123-CAKE</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">✉️</span>
+                        <div>
+                            <h3>Email Us</h3>
+                            <p>hello@humbercakes.com</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Humber Cakes. All rights reserved. Made with ❤️ and lots of sugar!</p>
+    </footer>
+
+    <!-- Scroll Indicator Button -->
+    <button id="scrollIndicator" class="scroll-indicator" aria-label="Scroll indicator">
+        <svg class="scroll-arrow down-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M7 10L12 15L17 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <svg class="scroll-arrow up-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M17 14L12 9L7 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </button>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+
+
+
